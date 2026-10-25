@@ -42,6 +42,6 @@ Ejecuta la validación de sintaxis para prevenir errores de despliegue en produc
 Instrucciones de uso
 Clona el repositorio y ejecuta validaciones locales:
 
-git clone [https://github.com/flyfresh9/lab-cicd.git](https://github.com/flyfresh9/lab-cicd.git)
+git clone [https://github.com/flyfresh9/lab-cicd.git]
 cd lab-cicd
 docker compose config
