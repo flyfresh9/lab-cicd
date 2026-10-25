@@ -25,8 +25,7 @@ Este repositorio implementa un flujo de **CI/CD** automatizado mediante **GitHub
                                              │ Validacion Exitosa│
                                              │    (Check Verde)  │
                                              └───────────────────┘
-                                             
- Tecnologías Utilizadas:
+Tecnologías Utilizadas:
 
 GitHub Actions: Motor de automatización y ejecución de pipelines CI/CD.
 Docker & Docker Compose: Orquestación validada de contenedores.
