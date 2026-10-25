@@ -25,8 +25,8 @@ Este repositorio implementa un flujo de **CI/CD** automatizado mediante **GitHub
                                              │ Validacion Exitosa│
                                              │    (Check Verde)  │
                                              └───────────────────┘
-
-Tecnologías Utilizadas:
+                                             
+ Tecnologías Utilizadas:
 
 GitHub Actions: Motor de automatización y ejecución de pipelines CI/CD.
 Docker & Docker Compose: Orquestación validada de contenedores.
@@ -39,11 +39,9 @@ Clona el repositorio en un entorno limpio (ubuntu-latest).
 Configura las herramientas de Docker Compose.
 Ejecuta la validación de sintaxis para prevenir errores de despliegue en producción.
 
-## Instrucciones de uso
-
+Instrucciones de uso
 Clona el repositorio y ejecuta validaciones locales:
 
-```bash
-git clone https://github.com/flyfresh9/lab-cicd.git
+git clone [https://github.com/flyfresh9/lab-cicd.git](https://github.com/flyfresh9/lab-cicd.git)
 cd lab-cicd
 docker compose config
