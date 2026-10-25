@@ -1,0 +1,26 @@
+name: CI Docker Compose Validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-compose:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Copiar repositorio al entorno de ejecución
+      uses: actions/checkout@v4
+
+    - name: Configurar Docker Compose
+      uses: docker/setup-buildx-action@v3
+
+    - name: Validar sintaxis de Docker Compose
+      run: |
+        if [ -f docker-compose.yml ]; then
+          docker compose config
+        else
+          echo "No se encontró ningún archivo docker-compose.yml en la raíz."
+        fi
